@@ -1,0 +1,38 @@
+{
+    "name": "catamc90/font-awesome-pro",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "symfony/symfony": "5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        },
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
