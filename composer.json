@@ -1,6 +1,6 @@
 {
     "name": "catamc90/font-awesome-pro",
-    "type": "project",
+    "type": "symfony-bundle",
     "license": "MIT",
     "require": {
         "php": "^7.4",
