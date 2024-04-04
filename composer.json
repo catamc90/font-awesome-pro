@@ -21,10 +21,5 @@
         "psr-4": {
             "YourNamespace\\FontAwesomePro\\Tests\\": "tests/"
         }
-    },
-    "config": {
-        "platform": {
-            "php": "7.4"
-        }
     }
 }
