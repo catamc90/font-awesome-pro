@@ -1,0 +1,18 @@
+{
+  "name": "font-awesome-pro",
+  "version": "6.5.1",
+  "description": "The iconic font, CSS, and SVG framework",
+  "main": "index.js", // Entry point file
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catamc90/font-awesome-pro.git"
+  },
+  "keywords": [
+    "font", "awesome", "fontawesome", "icon", "svg", "font", "bootstrap"
+  ],
+  "author": "catamc90",
+  "license": "MIT",
+  "dependencies": {
+    // List your dependencies here if any
+  }
+}
