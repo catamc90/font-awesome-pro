@@ -3,9 +3,6 @@
     "description": "Font Awesome Pro integration for Symfony projects",
     "type": "library",
     "license": "proprietary",
-    "require": {
-        "php": "^7.4"
-    },
     "autoload": {
         "psr-4": {
             "YourNamespace\\FontAwesomePro\\": "src/"
